@@ -1,0 +1,8 @@
+python3-pybullet-planning-pip:
+  ubuntu:
+    pip:
+      packages: [git+https://github.com/logan-dunbar/pybullet_planning.git@3b25fc7a0f350f4b46048be5c42f9cbf3ab2d6fb]
+python3-xatlas-pip:
+  ubuntu:
+    pip:
+      packages: [xatlas==0.0.7]
