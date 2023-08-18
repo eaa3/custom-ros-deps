@@ -10,4 +10,10 @@ ghalton-pip:
   ubuntu:
     pip:
       packages: [ghalton==0.6.1]
+transformations-pip:
+  ubuntu:
+    pip:
+      packages: [transformations==2022.9.26]
+
+    
 
