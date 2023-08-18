@@ -9,7 +9,7 @@ python3-xatlas-pip:
 ghalton-pip:
   ubuntu:
     pip:
-      packages: [ghalton==0.6.1]
+      packages: [git+https://github.com/fmder/ghalton.git]
 transformations-pip:
   ubuntu:
     pip:
