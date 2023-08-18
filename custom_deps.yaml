@@ -5,7 +5,7 @@ python3-pybullet-planning-pip:
 python3-xatlas-pip:
   ubuntu:
     pip:
-      packages: [xatlas==0.0.7]
+      packages: [xatlas]
 ghalton-pip:
   ubuntu:
     pip:
