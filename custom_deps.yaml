@@ -1,7 +1,7 @@
 python3-pybullet-planning-pip:
   ubuntu:
     pip:
-      packages: [pybullet_planning]
+      packages: [git+https://github.com/eaa3/pybullet_planning.git@dev#egg=pybullet-planning]]
 python3-xatlas-pip:
   ubuntu:
     pip:
@@ -9,7 +9,7 @@ python3-xatlas-pip:
 ghalton-pip:
   ubuntu:
     pip:
-      packages: [ghalton]
+      packages: [ghalton==0.6.1]
 transformations-pip:
   ubuntu:
     pip:
